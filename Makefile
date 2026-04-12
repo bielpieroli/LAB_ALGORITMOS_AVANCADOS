@@ -43,7 +43,7 @@ run:
 	
 usage:
 	@echo "Exemplos de uso:"
-	@echo "  make build                    # Compila todos os programas"
-	@echo "  make run 01_servers.go         # Executa interativamente"
-	@echo "  make run 01_servers.go 1       # Executa com entrada do arquivo 1.in"
+	@echo "  make build                     # Compila todos os programas"
+	@echo "  make run 01_servers            # Executa interativamente"
+	@echo "  make run 01_servers 1          # Executa com entrada do arquivo 1.in"
 	@echo "  make clean                     # Limpa arquivos compilados"
