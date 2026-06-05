@@ -245,7 +245,7 @@ export default function App(): ReactElement {
         setTimeout(() => setPopAnim(false), 300);
 
         // Imagem de acerto
-        const idx = Math.floor(Math.random() * 3) + 1;
+        const idx = Math.floor(Math.random() * 4) + 1;
         clearImgTimers();
         setFeedbackImg({ src: `aura${idx}.png`, visible: true });
         imgFadeTimer.current = setTimeout(() => {

@@ -25,6 +25,7 @@ func inverso_modular(a, m int) int {
 	if mdc != 1 {
 		return -1
 	}
+	println("x:", x)
 	if x < 0 {
 		x = (x%m + m) % m
 	}
